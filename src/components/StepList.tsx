@@ -57,7 +57,7 @@ const StepList = ({ step, setStep }: Props) => {
                 {s.id}
               </div>
               <div className="hidden sm:block">
-                <p className="text-xs text-nautral-cool-gray">{s.title}</p>
+                <p className="text-xs text-nautral-light-gray">{s.title}</p>
                 <p className="font-medium">{s.value}</p>
               </div>
             </div>
